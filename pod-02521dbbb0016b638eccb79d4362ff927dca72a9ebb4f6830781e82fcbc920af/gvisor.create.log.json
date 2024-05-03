@@ -1,0 +1,146 @@
+{"msg":"main.go:194] **************** gVisor ****************","level":"info","time":"2024-05-02T15:14:16.396740006Z"}
+{"msg":"main.go:195] Version release-20240422.0, go1.22.0 X:nocoverageredesign, amd64, 16 CPUs, linux, PID 73330, PPID 73322, UID 0, GID 0","level":"info","time":"2024-05-02T15:14:16.396934332Z"}
+{"msg":"main.go:196] Page size: 0x1000 (4096 bytes)","level":"debug","time":"2024-05-02T15:14:16.396974988Z"}
+{"msg":"main.go:197] Args: [runsc --root=/run/containerd/runsc/k8s.io --log=/run/containerd/io.containerd.runtime.v2.task/k8s.io/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/log.json --log-format=json --panic-log=/var/log/pods/test-gvisor_memory-test-sandboxed_14427e4c-fc01-415a-864b-6e91cadf86fe/gvisor_panic.log --debug-log=/var/log/runsc/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/gvisor.%COMMAND%.log.json --debug-log-format=json --debug=true create --bundle /run/containerd/io.containerd.runtime.v2.task/k8s.io/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af --pid-file /run/containerd/io.containerd.runtime.v2.task/k8s.io/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/init.pid --user-log /var/log/pods/test-gvisor_memory-test-sandboxed_14427e4c-fc01-415a-864b-6e91cadf86fe/gvisor.log 02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af]","level":"info","time":"2024-05-02T15:14:16.397007589Z"}
+{"msg":"config.go:399] Platform: systrap","level":"info","time":"2024-05-02T15:14:16.397101826Z"}
+{"msg":"config.go:400] RootDir: /run/containerd/runsc/k8s.io","level":"info","time":"2024-05-02T15:14:16.397157391Z"}
+{"msg":"config.go:401] FileAccess: exclusive / Directfs: true / Overlay: root:self","level":"info","time":"2024-05-02T15:14:16.397176176Z"}
+{"msg":"config.go:402] Network: sandbox","level":"info","time":"2024-05-02T15:14:16.397204069Z"}
+{"msg":"config.go:404] Debug: true. Strace: false, max size: 1024, syscalls: ","level":"info","time":"2024-05-02T15:14:16.397222974Z"}
+{"msg":"config.go:422] Config.RootDir (--root): /run/containerd/runsc/k8s.io","level":"debug","time":"2024-05-02T15:14:16.397238002Z"}
+{"msg":"config.go:422] Config.Traceback (--traceback): system","level":"debug","time":"2024-05-02T15:14:16.397254193Z"}
+{"msg":"config.go:422] Config.Debug (--debug): true","level":"debug","time":"2024-05-02T15:14:16.397275963Z"}
+{"msg":"config.go:422] Config.LogFilename (--log): /run/containerd/io.containerd.runtime.v2.task/k8s.io/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/log.json","level":"debug","time":"2024-05-02T15:14:16.397288156Z"}
+{"msg":"config.go:422] Config.LogFormat (--log-format): json","level":"debug","time":"2024-05-02T15:14:16.397305198Z"}
+{"msg":"config.go:422] Config.DebugLog (--debug-log): /var/log/runsc/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/gvisor.%COMMAND%.log.json","level":"debug","time":"2024-05-02T15:14:16.39731699Z"}
+{"msg":"config.go:422] Config.DebugToUserLog (--debug-to-user-log): false","level":"debug","time":"2024-05-02T15:14:16.397331688Z"}
+{"msg":"config.go:422] Config.DebugCommand (--debug-command): (empty)","level":"debug","time":"2024-05-02T15:14:16.39734301Z"}
+{"msg":"config.go:422] Config.PanicLog (--panic-log): /var/log/pods/test-gvisor_memory-test-sandboxed_14427e4c-fc01-415a-864b-6e91cadf86fe/gvisor_panic.log","level":"debug","time":"2024-05-02T15:14:16.397354171Z"}
+{"msg":"config.go:422] Config.CoverageReport (--coverage-report): (empty)","level":"debug","time":"2024-05-02T15:14:16.397365102Z"}
+{"msg":"config.go:422] Config.DebugLogFormat (--debug-log-format): json","level":"debug","time":"2024-05-02T15:14:16.397375782Z"}
+{"msg":"config.go:422] Config.FileAccess (--file-access): exclusive","level":"debug","time":"2024-05-02T15:14:16.397386632Z"}
+{"msg":"config.go:422] Config.FileAccessMounts (--file-access-mounts): shared","level":"debug","time":"2024-05-02T15:14:16.397398504Z"}
+{"msg":"config.go:422] Config.Overlay (--overlay): false","level":"debug","time":"2024-05-02T15:14:16.397409615Z"}
+{"msg":"config.go:422] Config.Overlay2 (--overlay2): root:self","level":"debug","time":"2024-05-02T15:14:16.397420415Z"}
+{"msg":"config.go:422] Config.FSGoferHostUDS (--fsgofer-host-uds): false","level":"debug","time":"2024-05-02T15:14:16.397453778Z"}
+{"msg":"config.go:422] Config.HostUDS (--host-uds): none","level":"debug","time":"2024-05-02T15:14:16.39746578Z"}
+{"msg":"config.go:422] Config.HostFifo (--host-fifo): none","level":"debug","time":"2024-05-02T15:14:16.397479025Z"}
+{"msg":"config.go:422] Config.Network (--network): sandbox","level":"debug","time":"2024-05-02T15:14:16.397491168Z"}
+{"msg":"config.go:422] Config.EnableRaw (--net-raw): false","level":"debug","time":"2024-05-02T15:14:16.397509603Z"}
+{"msg":"config.go:422] Config.AllowPacketEndpointWrite (--TESTONLY-allow-packet-endpoint-write): false","level":"debug","time":"2024-05-02T15:14:16.397520994Z"}
+{"msg":"config.go:422] Config.HostGSO (--gso): true","level":"debug","time":"2024-05-02T15:14:16.397538106Z"}
+{"msg":"config.go:422] Config.GVisorGSO (--software-gso): true","level":"debug","time":"2024-05-02T15:14:16.397554939Z"}
+{"msg":"config.go:422] Config.GVisorGRO (--gvisor-gro): false","level":"debug","time":"2024-05-02T15:14:16.397565969Z"}
+{"msg":"config.go:422] Config.TXChecksumOffload (--tx-checksum-offload): false","level":"debug","time":"2024-05-02T15:14:16.397576749Z"}
+{"msg":"config.go:422] Config.RXChecksumOffload (--rx-checksum-offload): true","level":"debug","time":"2024-05-02T15:14:16.397587409Z"}
+{"msg":"config.go:422] Config.QDisc (--qdisc): fifo","level":"debug","time":"2024-05-02T15:14:16.3975981Z"}
+{"msg":"config.go:422] Config.LogPackets (--log-packets): false","level":"debug","time":"2024-05-02T15:14:16.397618879Z"}
+{"msg":"config.go:422] Config.PCAP (--pcap-log): (empty)","level":"debug","time":"2024-05-02T15:14:16.397642633Z"}
+{"msg":"config.go:422] Config.Platform (--platform): systrap","level":"debug","time":"2024-05-02T15:14:16.397653333Z"}
+{"msg":"config.go:422] Config.PlatformDevicePath (--platform_device_path): (empty)","level":"debug","time":"2024-05-02T15:14:16.397663843Z"}
+{"msg":"config.go:422] Config.MetricServer (--metric-server): (empty)","level":"debug","time":"2024-05-02T15:14:16.397674343Z"}
+{"msg":"config.go:422] Config.ProfilingMetrics (--profiling-metrics): (empty)","level":"debug","time":"2024-05-02T15:14:16.397684682Z"}
+{"msg":"config.go:422] Config.ProfilingMetricsLog (--profiling-metrics-log): (empty)","level":"debug","time":"2024-05-02T15:14:16.397695041Z"}
+{"msg":"config.go:422] Config.ProfilingMetricsRate (--profiling-metrics-rate-us): 1000","level":"debug","time":"2024-05-02T15:14:16.397705822Z"}
+{"msg":"config.go:422] Config.Strace (--strace): false","level":"debug","time":"2024-05-02T15:14:16.397716762Z"}
+{"msg":"config.go:422] Config.StraceSyscalls (--strace-syscalls): (empty)","level":"debug","time":"2024-05-02T15:14:16.397727232Z"}
+{"msg":"config.go:422] Config.StraceLogSize (--strace-log-size): 1024","level":"debug","time":"2024-05-02T15:14:16.397737892Z"}
+{"msg":"config.go:422] Config.StraceEvent (--strace-event): false","level":"debug","time":"2024-05-02T15:14:16.397748522Z"}
+{"msg":"config.go:424] Config.DisableSeccomp: false","level":"debug","time":"2024-05-02T15:14:16.397759212Z"}
+{"msg":"config.go:422] Config.EnableCoreTags (--enable-core-tags): false","level":"debug","time":"2024-05-02T15:14:16.397773428Z"}
+{"msg":"config.go:422] Config.WatchdogAction (--watchdog-action): logWarning","level":"debug","time":"2024-05-02T15:14:16.397787706Z"}
+{"msg":"config.go:422] Config.PanicSignal (--panic-signal): -1","level":"debug","time":"2024-05-02T15:14:16.397806501Z"}
+{"msg":"config.go:422] Config.ProfileEnable (--profile): false","level":"debug","time":"2024-05-02T15:14:16.397822852Z"}
+{"msg":"config.go:422] Config.ProfileBlock (--profile-block): (empty)","level":"debug","time":"2024-05-02T15:14:16.397833692Z"}
+{"msg":"config.go:422] Config.ProfileCPU (--profile-cpu): (empty)","level":"debug","time":"2024-05-02T15:14:16.397844232Z"}
+{"msg":"config.go:422] Config.ProfileHeap (--profile-heap): (empty)","level":"debug","time":"2024-05-02T15:14:16.397854592Z"}
+{"msg":"config.go:422] Config.ProfileMutex (--profile-mutex): (empty)","level":"debug","time":"2024-05-02T15:14:16.397872205Z"}
+{"msg":"config.go:422] Config.TraceFile (--trace): (empty)","level":"debug","time":"2024-05-02T15:14:16.397882734Z"}
+{"msg":"config.go:422] Config.NumNetworkChannels (--num-network-channels): 1","level":"debug","time":"2024-05-02T15:14:16.397893434Z"}
+{"msg":"config.go:422] Config.Rootless (--rootless): false","level":"debug","time":"2024-05-02T15:14:16.397904395Z"}
+{"msg":"config.go:422] Config.AlsoLogToStderr (--alsologtostderr): false","level":"debug","time":"2024-05-02T15:14:16.397919052Z"}
+{"msg":"config.go:422] Config.ReferenceLeak (--ref-leak-mode): disabled","level":"debug","time":"2024-05-02T15:14:16.397929993Z"}
+{"msg":"config.go:422] Config.CPUNumFromQuota (--cpu-num-from-quota): false","level":"debug","time":"2024-05-02T15:14:16.397947957Z"}
+{"msg":"config.go:422] Config.AllowFlagOverride (--allow-flag-override): false","level":"debug","time":"2024-05-02T15:14:16.397958667Z"}
+{"msg":"config.go:422] Config.OCISeccomp (--oci-seccomp): false","level":"debug","time":"2024-05-02T15:14:16.397969287Z"}
+{"msg":"config.go:422] Config.IgnoreCgroups (--ignore-cgroups): false","level":"debug","time":"2024-05-02T15:14:16.397979836Z"}
+{"msg":"config.go:422] Config.SystemdCgroup (--systemd-cgroup): false","level":"debug","time":"2024-05-02T15:14:16.397990246Z"}
+{"msg":"config.go:422] Config.PodInitConfig (--pod-init-config): (empty)","level":"debug","time":"2024-05-02T15:14:16.398000516Z"}
+{"msg":"config.go:422] Config.BufferPooling (--buffer-pooling): true","level":"debug","time":"2024-05-02T15:14:16.398011016Z"}
+{"msg":"config.go:422] Config.XDP (--EXPERIMENTAL-xdp): {0 }","level":"debug","time":"2024-05-02T15:14:16.398021866Z"}
+{"msg":"config.go:422] Config.AFXDPUseNeedWakeup (--EXPERIMENTAL-xdp-need-wakeup): true","level":"debug","time":"2024-05-02T15:14:16.398036524Z"}
+{"msg":"config.go:422] Config.FDLimit (--fdlimit): -1","level":"debug","time":"2024-05-02T15:14:16.398047204Z"}
+{"msg":"config.go:422] Config.DCache (--dcache): -1","level":"debug","time":"2024-05-02T15:14:16.398057874Z"}
+{"msg":"config.go:422] Config.IOUring (--iouring): false","level":"debug","time":"2024-05-02T15:14:16.398074234Z"}
+{"msg":"config.go:422] Config.DirectFS (--directfs): true","level":"debug","time":"2024-05-02T15:14:16.398084914Z"}
+{"msg":"config.go:422] Config.NVProxy (--nvproxy): false","level":"debug","time":"2024-05-02T15:14:16.398095514Z"}
+{"msg":"config.go:422] Config.NVProxyDocker (--nvproxy-docker): false","level":"debug","time":"2024-05-02T15:14:16.398105954Z"}
+{"msg":"config.go:422] Config.NVProxyDriverVersion (--nvproxy-driver-version): (empty)","level":"debug","time":"2024-05-02T15:14:16.398116604Z"}
+{"msg":"config.go:422] Config.TPUProxy (--tpuproxy): false","level":"debug","time":"2024-05-02T15:14:16.398129879Z"}
+{"msg":"config.go:422] Config.TestOnlyAllowRunAsCurrentUserWithoutChroot (--TESTONLY-unsafe-nonroot): false","level":"debug","time":"2024-05-02T15:14:16.398140649Z"}
+{"msg":"config.go:422] Config.TestOnlyTestNameEnv (--TESTONLY-test-name-env): (empty)","level":"debug","time":"2024-05-02T15:14:16.39815187Z"}
+{"msg":"config.go:422] Config.TestOnlyAFSSyscallPanic (--TESTONLY-afs-syscall-panic): false","level":"debug","time":"2024-05-02T15:14:16.398162801Z"}
+{"msg":"config.go:424] Config.explicitlySet: \u003cmap[string]struct {} Value\u003e (unexported)","level":"debug","time":"2024-05-02T15:14:16.398174412Z"}
+{"msg":"config.go:422] Config.ReproduceNAT (--reproduce-nat): false","level":"debug","time":"2024-05-02T15:14:16.398188058Z"}
+{"msg":"config.go:422] Config.ReproduceNftables (--reproduce-nftables): false","level":"debug","time":"2024-05-02T15:14:16.398200181Z"}
+{"msg":"config.go:422] Config.TestOnlyAutosaveImagePath (--TESTONLY-autosave-image-path): (empty)","level":"debug","time":"2024-05-02T15:14:16.398211863Z"}
+{"msg":"config.go:422] Config.TestOnlyAutosaveResume (--TESTONLY-autosave-resume): false","level":"debug","time":"2024-05-02T15:14:16.398223385Z"}
+{"msg":"main.go:199] **************** gVisor ****************","level":"info","time":"2024-05-02T15:14:16.398233534Z"}
+{"msg":"specutils.go:87] Spec:\n{\n  \"ociVersion\": \"1.1.0\",\n  \"process\": {\n    \"user\": {\n      \"uid\": 65535,\n      \"gid\": 65535,\n      \"additionalGids\": [\n        65535\n      ]\n    },\n    \"args\": [\n      \"/pause\"\n    ],\n    \"env\": [\n      \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"\n    ],\n    \"cwd\": \"/\",\n    \"noNewPrivileges\": true,\n    \"oomScoreAdj\": -998\n  },\n  \"root\": {\n    \"path\": \"/run/containerd/io.containerd.runtime.v2.task/k8s.io/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/rootfs\",\n    \"readonly\": true\n  },\n  \"hostname\": \"memory-test-sandboxed\",\n  \"mounts\": [\n    {\n      \"destination\": \"/proc\",\n      \"type\": \"proc\",\n      \"source\": \"/run/containerd/io.containerd.runtime.v2.task/k8s.io/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/proc\",\n      \"options\": [\n        \"nosuid\",\n        \"noexec\",\n        \"nodev\"\n      ]\n    },\n    {\n      \"destination\": \"/dev\",\n      \"type\": \"tmpfs\",\n      \"source\": \"/run/containerd/io.containerd.runtime.v2.task/k8s.io/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/tmpfs\",\n      \"options\": [\n        \"nosuid\",\n        \"strictatime\",\n        \"mode=755\",\n        \"size=65536k\"\n      ]\n    },\n    {\n      \"destination\": \"/dev/pts\",\n      \"type\": \"devpts\",\n      \"source\": \"/run/containerd/io.containerd.runtime.v2.task/k8s.io/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/devpts\",\n      \"options\": [\n        \"nosuid\",\n        \"noexec\",\n        \"newinstance\",\n        \"ptmxmode=0666\",\n        \"mode=0620\",\n        \"gid=5\"\n      ]\n    },\n    {\n      \"destination\": \"/dev/mqueue\",\n      \"type\": \"mqueue\",\n      \"source\": \"/run/containerd/io.containerd.runtime.v2.task/k8s.io/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/mqueue\",\n      \"options\": [\n        \"nosuid\",\n        \"noexec\",\n        \"nodev\"\n      ]\n    },\n    {\n      \"destination\": \"/sys\",\n      \"type\": \"sysfs\",\n      \"source\": \"/run/containerd/io.containerd.runtime.v2.task/k8s.io/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/sysfs\",\n      \"options\": [\n        \"nosuid\",\n        \"noexec\",\n        \"nodev\",\n        \"ro\"\n      ]\n    },\n    {\n      \"destination\": \"/dev/shm\",\n      \"type\": \"tmpfs\",\n      \"source\": \"/run/containerd/io.containerd.grpc.v1.cri/sandboxes/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/shm\",\n      \"options\": [\n        \"ro\",\n        \"nosuid\",\n        \"nodev\",\n        \"noexec\"\n      ]\n    },\n    {\n      \"destination\": \"/etc/resolv.conf\",\n      \"type\": \"bind\",\n      \"source\": \"/var/lib/containerd/io.containerd.grpc.v1.cri/sandboxes/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/resolv.conf\",\n      \"options\": [\n        \"rbind\",\n        \"ro\",\n        \"nosuid\",\n        \"nodev\",\n        \"noexec\"\n      ]\n    }\n  ],\n  \"annotations\": {\n    \"dev.gvisor.spec.mount.gvisorinternaldevshm.options\": \"rw\",\n    \"dev.gvisor.spec.mount.gvisorinternaldevshm.share\": \"pod\",\n    \"dev.gvisor.spec.mount.gvisorinternaldevshm.source\": \"/run/containerd/io.containerd.grpc.v1.cri/sandboxes/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/shm\",\n    \"dev.gvisor.spec.mount.gvisorinternaldevshm.type\": \"tmpfs\",\n    \"io.kubernetes.cri.container-type\": \"sandbox\",\n    \"io.kubernetes.cri.sandbox-cpu-period\": \"100000\",\n    \"io.kubernetes.cri.sandbox-cpu-quota\": \"100000\",\n    \"io.kubernetes.cri.sandbox-cpu-shares\": \"1024\",\n    \"io.kubernetes.cri.sandbox-id\": \"02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af\",\n    \"io.kubernetes.cri.sandbox-log-directory\": \"/var/log/pods/test-gvisor_memory-test-sandboxed_14427e4c-fc01-415a-864b-6e91cadf86fe\",\n    \"io.kubernetes.cri.sandbox-memory\": \"1073741824\",\n    \"io.kubernetes.cri.sandbox-name\": \"memory-test-sandboxed\",\n    \"io.kubernetes.cri.sandbox-namespace\": \"test-gvisor\",\n    \"io.kubernetes.cri.sandbox-uid\": \"14427e4c-fc01-415a-864b-6e91cadf86fe\"\n  },\n  \"linux\": {\n    \"resources\": {\n      \"cpu\": {\n        \"shares\": 2\n      }\n    },\n    \"cgroupsPath\": \"kubepods-pod14427e4c_fc01_415a_864b_6e91cadf86fe.slice:cri-containerd:02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af\",\n    \"namespaces\": [\n      {\n        \"type\": \"pid\"\n      },\n      {\n        \"type\": \"ipc\"\n      },\n      {\n        \"type\": \"uts\"\n      },\n      {\n        \"type\": \"mount\"\n      },\n      {\n        \"type\": \"network\",\n        \"path\": \"/var/run/netns/cni-4f7bd730-c7b9-7c79-d3e4-b7215eb02dd2\"\n      }\n    ]\n  }\n}","level":"debug","time":"2024-05-02T15:14:16.400078622Z"}
+{"msg":"container.go:198] Create container, cid: 02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af, rootDir: \"/run/containerd/runsc/k8s.io\"","level":"debug","time":"2024-05-02T15:14:16.400192666Z"}
+{"msg":"container.go:1762] Configuring container with a new userns with identity user mappings into current userns","level":"debug","time":"2024-05-02T15:14:16.400257238Z"}
+{"msg":"container.go:1818] UID Mappings:","level":"debug","time":"2024-05-02T15:14:16.400332159Z"}
+{"msg":"container.go:1820] \tContainer ID: 0, Host ID: 0, Range Length: 4294967295","level":"debug","time":"2024-05-02T15:14:16.400350263Z"}
+{"msg":"container.go:1818] GID Mappings:","level":"debug","time":"2024-05-02T15:14:16.400398824Z"}
+{"msg":"container.go:1820] \tContainer ID: 0, Host ID: 0, Range Length: 4294967295","level":"debug","time":"2024-05-02T15:14:16.400413983Z"}
+{"msg":"container.go:260] Creating new sandbox for container, cid: 02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af","level":"debug","time":"2024-05-02T15:14:16.400460871Z"}
+{"msg":"cgroup.go:410] New cgroup for pid: self, *cgroup.cgroupV2: \u0026{Mountpoint:/sys/fs/cgroup Path:system.slice/kubepods-pod14427e4c_fc01_415a_864b_6e91cadf86fe.slice:cri-containerd:02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af Controllers:[cpuset cpu io memory hugetlb pids rdma misc] Own:[]}","level":"debug","time":"2024-05-02T15:14:16.401112897Z"}
+{"msg":"cgroup_v2.go:132] Installing cgroup path \"/sys/fs/cgroup/system.slice/kubepods-pod14427e4c_fc01_415a_864b_6e91cadf86fe.slice:cri-containerd:02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af\"","level":"debug","time":"2024-05-02T15:14:16.401184732Z"}
+{"msg":"cgroup.go:116] Setting \"/sys/fs/cgroup/system.slice/kubepods-pod14427e4c_fc01_415a_864b_6e91cadf86fe.slice:cri-containerd:02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/cpu.weight\" to \"1\"","level":"debug","time":"2024-05-02T15:14:16.401528849Z"}
+{"msg":"mount_hints.go:105] Mount annotation found, name: gvisorinternaldevshm, source: \"/run/containerd/io.containerd.grpc.v1.cri/sandboxes/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/shm\", type: tmpfs, share: pod","level":"info","time":"2024-05-02T15:14:16.40168394Z"}
+{"msg":"cgroup.go:116] Setting \"/sys/fs/cgroup/system.slice/kubepods-pod14427e4c_fc01_415a_864b_6e91cadf86fe.slice:cri-containerd:02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/cgroup.procs\" to \"0\"","level":"debug","time":"2024-05-02T15:14:16.402233233Z"}
+{"msg":"namespace.go:202] Mapping host uid 0 to container uid 0 (size=4294967295)","level":"info","time":"2024-05-02T15:14:16.402790471Z"}
+{"msg":"namespace.go:210] Mapping host gid 0 to container gid 0 (size=4294967295)","level":"info","time":"2024-05-02T15:14:16.402842959Z"}
+{"msg":"donation.go:31] Donating FD 3: \"/run/containerd/io.containerd.runtime.v2.task/k8s.io/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/log.json\"","level":"debug","time":"2024-05-02T15:14:16.402862656Z"}
+{"msg":"donation.go:31] Donating FD 4: \"/var/log/runsc/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/gvisor.gofer.log.json\"","level":"debug","time":"2024-05-02T15:14:16.402886802Z"}
+{"msg":"donation.go:31] Donating FD 5: \"/run/containerd/io.containerd.runtime.v2.task/k8s.io/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/config.json\"","level":"debug","time":"2024-05-02T15:14:16.402910937Z"}
+{"msg":"donation.go:31] Donating FD 6: \"|1\"","level":"debug","time":"2024-05-02T15:14:16.402945061Z"}
+{"msg":"donation.go:31] Donating FD 7: \"gofer IO FD\"","level":"debug","time":"2024-05-02T15:14:16.402969727Z"}
+{"msg":"donation.go:31] Donating FD 8: \"gofer IO FD\"","level":"debug","time":"2024-05-02T15:14:16.402980618Z"}
+{"msg":"container.go:1351] Starting gofer: /proc/self/exe [runsc-gofer --debug=true --log=/run/containerd/io.containerd.runtime.v2.task/k8s.io/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/log.json --log-format=json --debug-log=/var/log/runsc/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/gvisor.%COMMAND%.log.json --panic-log=/var/log/pods/test-gvisor_memory-test-sandboxed_14427e4c-fc01-415a-864b-6e91cadf86fe/gvisor_panic.log --debug-log-format=json --root=/run/containerd/runsc/k8s.io --log-fd=3 --debug-log-fd=4 gofer --bundle /run/containerd/io.containerd.runtime.v2.task/k8s.io/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af --gofer-mount-confs=lisafs:none,lisafs:none --spec-fd=5 --mounts-fd=6 --io-fds=7 --io-fds=8]","level":"debug","time":"2024-05-02T15:14:16.402991198Z"}
+{"msg":"container.go:1355] Gofer started, PID: 73335","level":"info","time":"2024-05-02T15:14:16.405382623Z"}
+{"msg":"sandbox.go:85] Attempting to create socket file \"/run/containerd/runsc/k8s.io/runsc-02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af.sock\"","level":"debug","time":"2024-05-02T15:14:16.405986318Z"}
+{"msg":"sandbox.go:88] Using socket file \"/run/containerd/runsc/k8s.io/runsc-02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af.sock\"","level":"debug","time":"2024-05-02T15:14:16.406068053Z"}
+{"msg":"sandbox.go:791] Control socket path: \"/run/containerd/runsc/k8s.io/runsc-02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af.sock\"","level":"info","time":"2024-05-02T15:14:16.406089222Z"}
+{"msg":"sandbox.go:826] Sandbox will be started in new mount, IPC and UTS namespaces","level":"info","time":"2024-05-02T15:14:16.406150457Z"}
+{"msg":"sandbox.go:836] Sandbox will be started in the current PID namespace","level":"info","time":"2024-05-02T15:14:16.406175624Z"}
+{"msg":"sandbox.go:855] Sandbox will be started in the container's network namespace: {Type:network Path:/var/run/netns/cni-4f7bd730-c7b9-7c79-d3e4-b7215eb02dd2}","level":"info","time":"2024-05-02T15:14:16.406195822Z"}
+{"msg":"sandbox.go:877] Sandbox will be started in container's user namespace: {Type:user Path:}","level":"info","time":"2024-05-02T15:14:16.406242189Z"}
+{"msg":"namespace.go:202] Mapping host uid 0 to container uid 0 (size=4294967295)","level":"info","time":"2024-05-02T15:14:16.406303034Z"}
+{"msg":"namespace.go:210] Mapping host gid 0 to container gid 0 (size=4294967295)","level":"info","time":"2024-05-02T15:14:16.406325426Z"}
+{"msg":"sandbox.go:907] Sandbox will be started in minimal chroot","level":"info","time":"2024-05-02T15:14:16.40643429Z"}
+{"msg":"sandbox.go:1531] Changing \"/dev/stdin\" ownership to 0/0","level":"debug","time":"2024-05-02T15:14:16.40647688Z"}
+{"msg":"sandbox.go:1531] Changing \"/dev/stdout\" ownership to 0/0","level":"debug","time":"2024-05-02T15:14:16.406505615Z"}
+{"msg":"sandbox.go:1531] Changing \"/dev/stderr\" ownership to 0/0","level":"debug","time":"2024-05-02T15:14:16.406520343Z"}
+{"msg":"donation.go:31] Donating FD 3: \"/run/containerd/io.containerd.runtime.v2.task/k8s.io/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/log.json\"","level":"debug","time":"2024-05-02T15:14:16.406709407Z"}
+{"msg":"donation.go:31] Donating FD 4: \"/var/log/runsc/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/gvisor.boot.log.json\"","level":"debug","time":"2024-05-02T15:14:16.406745115Z"}
+{"msg":"donation.go:31] Donating FD 5: \"/var/log/pods/test-gvisor_memory-test-sandboxed_14427e4c-fc01-415a-864b-6e91cadf86fe/gvisor_panic.log\"","level":"debug","time":"2024-05-02T15:14:16.406768098Z"}
+{"msg":"donation.go:31] Donating FD 6: \"sandbox IO FD\"","level":"debug","time":"2024-05-02T15:14:16.406782876Z"}
+{"msg":"donation.go:31] Donating FD 7: \"sandbox IO FD\"","level":"debug","time":"2024-05-02T15:14:16.406794177Z"}
+{"msg":"donation.go:31] Donating FD 8: \"|0\"","level":"debug","time":"2024-05-02T15:14:16.406804837Z"}
+{"msg":"donation.go:31] Donating FD 9: \"|1\"","level":"debug","time":"2024-05-02T15:14:16.406816619Z"}
+{"msg":"donation.go:31] Donating FD 10: \"/var/log/pods/test-gvisor_memory-test-sandboxed_14427e4c-fc01-415a-864b-6e91cadf86fe/gvisor.log\"","level":"debug","time":"2024-05-02T15:14:16.406827129Z"}
+{"msg":"donation.go:31] Donating FD 11: \"control_server_socket\"","level":"debug","time":"2024-05-02T15:14:16.406839432Z"}
+{"msg":"donation.go:31] Donating FD 12: \"/run/containerd/io.containerd.runtime.v2.task/k8s.io/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/config.json\"","level":"debug","time":"2024-05-02T15:14:16.406850162Z"}
+{"msg":"donation.go:31] Donating FD 13: \"/dev/stdin\"","level":"debug","time":"2024-05-02T15:14:16.406863187Z"}
+{"msg":"donation.go:31] Donating FD 14: \"/dev/stdout\"","level":"debug","time":"2024-05-02T15:14:16.406873807Z"}
+{"msg":"donation.go:31] Donating FD 15: \"/dev/stderr\"","level":"debug","time":"2024-05-02T15:14:16.406884186Z"}
+{"msg":"sandbox.go:1092] Starting sandbox: /proc/self/exe [runsc-sandbox --root=/run/containerd/runsc/k8s.io --debug=true --log=/run/containerd/io.containerd.runtime.v2.task/k8s.io/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/log.json --log-format=json --debug-log=/var/log/runsc/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/gvisor.%COMMAND%.log.json --panic-log=/var/log/pods/test-gvisor_memory-test-sandboxed_14427e4c-fc01-415a-864b-6e91cadf86fe/gvisor_panic.log --debug-log-format=json --log-fd=3 --debug-log-fd=4 --panic-log-fd=5 boot --bundle=/run/containerd/io.containerd.runtime.v2.task/k8s.io/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af --gofer-mount-confs=lisafs:none,lisafs:none --apply-caps=true --setup-root --total-host-memory 67415547904 --cpu-num 16 --total-memory 67415547904 --io-fds=6 --io-fds=7 --dev-io-fd=-1 --mounts-fd=8 --start-sync-fd=9 --user-log-fd=10 --controller-fd=11 --spec-fd=12 --stdio-fds=13 --stdio-fds=14 --stdio-fds=15 02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af]","level":"debug","time":"2024-05-02T15:14:16.406894616Z"}
+{"msg":"sandbox.go:1093] SysProcAttr: \u0026{Chroot: Credential:0xc0003b00c0 Ptrace:false Setsid:true Setpgid:false Setctty:false Noctty:false Ctty:0 Foreground:false Pgid:0 Pdeathsig:signal 0 Cloneflags:0 Unshareflags:0 UidMappings:[{ContainerID:0 HostID:0 Size:4294967295}] GidMappings:[{ContainerID:0 HostID:0 Size:4294967295}] GidMappingsEnableSetgroups:false AmbientCaps:[] UseCgroupFD:false CgroupFD:0 PidFD:\u003cnil\u003e}","level":"debug","time":"2024-05-02T15:14:16.406951554Z"}
+{"msg":"namespace.go:108] Applying namespace network at path \"/var/run/netns/cni-4f7bd730-c7b9-7c79-d3e4-b7215eb02dd2\"","level":"info","time":"2024-05-02T15:14:16.407043566Z"}
+{"msg":"namespace.go:129] Restoring namespace network","level":"info","time":"2024-05-02T15:14:16.408324805Z"}
+{"msg":"sandbox.go:1121] Sandbox started, PID: 73339","level":"info","time":"2024-05-02T15:14:16.408444329Z"}
+{"msg":"cgroup_v2.go:218] Restoring cgroup \"/sys/fs/cgroup/system.slice/containerd.service\"","level":"debug","time":"2024-05-02T15:14:16.527835037Z"}
+{"msg":"cgroup.go:116] Setting \"/sys/fs/cgroup/system.slice/containerd.service/cgroup.procs\" to \"0\"","level":"debug","time":"2024-05-02T15:14:16.527988545Z"}
+{"msg":"container.go:1071] Save container, cid: 02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af","level":"debug","time":"2024-05-02T15:14:16.528199682Z"}
+{"msg":"main.go:226] Exiting with status: 0","level":"info","time":"2024-05-02T15:14:16.529078625Z"}

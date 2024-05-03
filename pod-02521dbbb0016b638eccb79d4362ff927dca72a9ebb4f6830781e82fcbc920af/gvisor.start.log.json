@@ -1,0 +1,105 @@
+{"msg":"main.go:194] **************** gVisor ****************","level":"info","time":"2024-05-02T15:14:16.617001695Z"}
+{"msg":"main.go:195] Version release-20240422.0, go1.22.0 X:nocoverageredesign, amd64, 16 CPUs, linux, PID 73381, PPID 73322, UID 0, GID 0","level":"info","time":"2024-05-02T15:14:16.617165403Z"}
+{"msg":"main.go:196] Page size: 0x1000 (4096 bytes)","level":"debug","time":"2024-05-02T15:14:16.617190039Z"}
+{"msg":"main.go:197] Args: [runsc --root=/run/containerd/runsc/k8s.io --log=/run/containerd/io.containerd.runtime.v2.task/k8s.io/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/log.json --log-format=json --panic-log=/var/log/pods/test-gvisor_memory-test-sandboxed_14427e4c-fc01-415a-864b-6e91cadf86fe/gvisor_panic.log --debug=true --debug-log=/var/log/runsc/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/gvisor.%COMMAND%.log.json --debug-log-format=json start 02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af]","level":"info","time":"2024-05-02T15:14:16.617208193Z"}
+{"msg":"config.go:399] Platform: systrap","level":"info","time":"2024-05-02T15:14:16.617234582Z"}
+{"msg":"config.go:400] RootDir: /run/containerd/runsc/k8s.io","level":"info","time":"2024-05-02T15:14:16.617288845Z"}
+{"msg":"config.go:401] FileAccess: exclusive / Directfs: true / Overlay: root:self","level":"info","time":"2024-05-02T15:14:16.617309564Z"}
+{"msg":"config.go:402] Network: sandbox","level":"info","time":"2024-05-02T15:14:16.617334671Z"}
+{"msg":"config.go:404] Debug: true. Strace: false, max size: 1024, syscalls: ","level":"info","time":"2024-05-02T15:14:16.617349148Z"}
+{"msg":"config.go:422] Config.RootDir (--root): /run/containerd/runsc/k8s.io","level":"debug","time":"2024-05-02T15:14:16.617364347Z"}
+{"msg":"config.go:422] Config.Traceback (--traceback): system","level":"debug","time":"2024-05-02T15:14:16.617379906Z"}
+{"msg":"config.go:422] Config.Debug (--debug): true","level":"debug","time":"2024-05-02T15:14:16.61739281Z"}
+{"msg":"config.go:422] Config.LogFilename (--log): /run/containerd/io.containerd.runtime.v2.task/k8s.io/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/log.json","level":"debug","time":"2024-05-02T15:14:16.617417326Z"}
+{"msg":"config.go:422] Config.LogFormat (--log-format): json","level":"debug","time":"2024-05-02T15:14:16.617441171Z"}
+{"msg":"config.go:422] Config.DebugLog (--debug-log): /var/log/runsc/02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af/gvisor.%COMMAND%.log.json","level":"debug","time":"2024-05-02T15:14:16.617453895Z"}
+{"msg":"config.go:422] Config.DebugToUserLog (--debug-to-user-log): false","level":"debug","time":"2024-05-02T15:14:16.617470286Z"}
+{"msg":"config.go:422] Config.DebugCommand (--debug-command): (empty)","level":"debug","time":"2024-05-02T15:14:16.617483141Z"}
+{"msg":"config.go:422] Config.PanicLog (--panic-log): /var/log/pods/test-gvisor_memory-test-sandboxed_14427e4c-fc01-415a-864b-6e91cadf86fe/gvisor_panic.log","level":"debug","time":"2024-05-02T15:14:16.617506855Z"}
+{"msg":"config.go:422] Config.CoverageReport (--coverage-report): (empty)","level":"debug","time":"2024-05-02T15:14:16.617518397Z"}
+{"msg":"config.go:422] Config.DebugLogFormat (--debug-log-format): json","level":"debug","time":"2024-05-02T15:14:16.617529387Z"}
+{"msg":"config.go:422] Config.FileAccess (--file-access): exclusive","level":"debug","time":"2024-05-02T15:14:16.617540268Z"}
+{"msg":"config.go:422] Config.FileAccessMounts (--file-access-mounts): shared","level":"debug","time":"2024-05-02T15:14:16.61755225Z"}
+{"msg":"config.go:422] Config.Overlay (--overlay): false","level":"debug","time":"2024-05-02T15:14:16.617563642Z"}
+{"msg":"config.go:422] Config.Overlay2 (--overlay2): root:self","level":"debug","time":"2024-05-02T15:14:16.617574742Z"}
+{"msg":"config.go:422] Config.FSGoferHostUDS (--fsgofer-host-uds): false","level":"debug","time":"2024-05-02T15:14:16.617586414Z"}
+{"msg":"config.go:422] Config.HostUDS (--host-uds): none","level":"debug","time":"2024-05-02T15:14:16.617597395Z"}
+{"msg":"config.go:422] Config.HostFifo (--host-fifo): none","level":"debug","time":"2024-05-02T15:14:16.617615318Z"}
+{"msg":"config.go:422] Config.Network (--network): sandbox","level":"debug","time":"2024-05-02T15:14:16.617636518Z"}
+{"msg":"config.go:422] Config.EnableRaw (--net-raw): false","level":"debug","time":"2024-05-02T15:14:16.617648791Z"}
+{"msg":"config.go:422] Config.AllowPacketEndpointWrite (--TESTONLY-allow-packet-endpoint-write): false","level":"debug","time":"2024-05-02T15:14:16.617659622Z"}
+{"msg":"config.go:422] Config.HostGSO (--gso): true","level":"debug","time":"2024-05-02T15:14:16.617670502Z"}
+{"msg":"config.go:422] Config.GVisorGSO (--software-gso): true","level":"debug","time":"2024-05-02T15:14:16.617681242Z"}
+{"msg":"config.go:422] Config.GVisorGRO (--gvisor-gro): false","level":"debug","time":"2024-05-02T15:14:16.617692033Z"}
+{"msg":"config.go:422] Config.TXChecksumOffload (--tx-checksum-offload): false","level":"debug","time":"2024-05-02T15:14:16.617702783Z"}
+{"msg":"config.go:422] Config.RXChecksumOffload (--rx-checksum-offload): true","level":"debug","time":"2024-05-02T15:14:16.617713704Z"}
+{"msg":"config.go:422] Config.QDisc (--qdisc): fifo","level":"debug","time":"2024-05-02T15:14:16.617724775Z"}
+{"msg":"config.go:422] Config.LogPackets (--log-packets): false","level":"debug","time":"2024-05-02T15:14:16.617737448Z"}
+{"msg":"config.go:422] Config.PCAP (--pcap-log): (empty)","level":"debug","time":"2024-05-02T15:14:16.617760612Z"}
+{"msg":"config.go:422] Config.Platform (--platform): systrap","level":"debug","time":"2024-05-02T15:14:16.617779848Z"}
+{"msg":"config.go:422] Config.PlatformDevicePath (--platform_device_path): (empty)","level":"debug","time":"2024-05-02T15:14:16.617800657Z"}
+{"msg":"config.go:422] Config.MetricServer (--metric-server): (empty)","level":"debug","time":"2024-05-02T15:14:16.617822608Z"}
+{"msg":"config.go:422] Config.ProfilingMetrics (--profiling-metrics): (empty)","level":"debug","time":"2024-05-02T15:14:16.617835352Z"}
+{"msg":"config.go:422] Config.ProfilingMetricsLog (--profiling-metrics-log): (empty)","level":"debug","time":"2024-05-02T15:14:16.617846112Z"}
+{"msg":"config.go:422] Config.ProfilingMetricsRate (--profiling-metrics-rate-us): 1000","level":"debug","time":"2024-05-02T15:14:16.617857694Z"}
+{"msg":"config.go:422] Config.Strace (--strace): false","level":"debug","time":"2024-05-02T15:14:16.617869206Z"}
+{"msg":"config.go:422] Config.StraceSyscalls (--strace-syscalls): (empty)","level":"debug","time":"2024-05-02T15:14:16.617879595Z"}
+{"msg":"config.go:422] Config.StraceLogSize (--strace-log-size): 1024","level":"debug","time":"2024-05-02T15:14:16.617890506Z"}
+{"msg":"config.go:422] Config.StraceEvent (--strace-event): false","level":"debug","time":"2024-05-02T15:14:16.617901426Z"}
+{"msg":"config.go:424] Config.DisableSeccomp: false","level":"debug","time":"2024-05-02T15:14:16.617912017Z"}
+{"msg":"config.go:422] Config.EnableCoreTags (--enable-core-tags): false","level":"debug","time":"2024-05-02T15:14:16.617926534Z"}
+{"msg":"config.go:422] Config.WatchdogAction (--watchdog-action): logWarning","level":"debug","time":"2024-05-02T15:14:16.61794025Z"}
+{"msg":"config.go:422] Config.PanicSignal (--panic-signal): -1","level":"debug","time":"2024-05-02T15:14:16.61797224Z"}
+{"msg":"config.go:422] Config.ProfileEnable (--profile): false","level":"debug","time":"2024-05-02T15:14:16.617983801Z"}
+{"msg":"config.go:422] Config.ProfileBlock (--profile-block): (empty)","level":"debug","time":"2024-05-02T15:14:16.617994492Z"}
+{"msg":"config.go:422] Config.ProfileCPU (--profile-cpu): (empty)","level":"debug","time":"2024-05-02T15:14:16.618004931Z"}
+{"msg":"config.go:422] Config.ProfileHeap (--profile-heap): (empty)","level":"debug","time":"2024-05-02T15:14:16.61801521Z"}
+{"msg":"config.go:422] Config.ProfileMutex (--profile-mutex): (empty)","level":"debug","time":"2024-05-02T15:14:16.61802562Z"}
+{"msg":"config.go:422] Config.TraceFile (--trace): (empty)","level":"debug","time":"2024-05-02T15:14:16.618035869Z"}
+{"msg":"config.go:422] Config.NumNetworkChannels (--num-network-channels): 1","level":"debug","time":"2024-05-02T15:14:16.61804674Z"}
+{"msg":"config.go:422] Config.Rootless (--rootless): false","level":"debug","time":"2024-05-02T15:14:16.61806828Z"}
+{"msg":"config.go:422] Config.AlsoLogToStderr (--alsologtostderr): false","level":"debug","time":"2024-05-02T15:14:16.618079311Z"}
+{"msg":"config.go:422] Config.ReferenceLeak (--ref-leak-mode): disabled","level":"debug","time":"2024-05-02T15:14:16.618090211Z"}
+{"msg":"config.go:422] Config.CPUNumFromQuota (--cpu-num-from-quota): false","level":"debug","time":"2024-05-02T15:14:16.6181108Z"}
+{"msg":"config.go:422] Config.AllowFlagOverride (--allow-flag-override): false","level":"debug","time":"2024-05-02T15:14:16.618122011Z"}
+{"msg":"config.go:422] Config.OCISeccomp (--oci-seccomp): false","level":"debug","time":"2024-05-02T15:14:16.618133393Z"}
+{"msg":"config.go:422] Config.IgnoreCgroups (--ignore-cgroups): false","level":"debug","time":"2024-05-02T15:14:16.618144073Z"}
+{"msg":"config.go:422] Config.SystemdCgroup (--systemd-cgroup): false","level":"debug","time":"2024-05-02T15:14:16.618154663Z"}
+{"msg":"config.go:422] Config.PodInitConfig (--pod-init-config): (empty)","level":"debug","time":"2024-05-02T15:14:16.618165113Z"}
+{"msg":"config.go:422] Config.BufferPooling (--buffer-pooling): true","level":"debug","time":"2024-05-02T15:14:16.61817997Z"}
+{"msg":"config.go:422] Config.XDP (--EXPERIMENTAL-xdp): {0 }","level":"debug","time":"2024-05-02T15:14:16.618191041Z"}
+{"msg":"config.go:422] Config.AFXDPUseNeedWakeup (--EXPERIMENTAL-xdp-need-wakeup): true","level":"debug","time":"2024-05-02T15:14:16.618205568Z"}
+{"msg":"config.go:422] Config.FDLimit (--fdlimit): -1","level":"debug","time":"2024-05-02T15:14:16.618216379Z"}
+{"msg":"config.go:422] Config.DCache (--dcache): -1","level":"debug","time":"2024-05-02T15:14:16.618227269Z"}
+{"msg":"config.go:422] Config.IOUring (--iouring): false","level":"debug","time":"2024-05-02T15:14:16.61824393Z"}
+{"msg":"config.go:422] Config.DirectFS (--directfs): true","level":"debug","time":"2024-05-02T15:14:16.618254811Z"}
+{"msg":"config.go:422] Config.NVProxy (--nvproxy): false","level":"debug","time":"2024-05-02T15:14:16.618265721Z"}
+{"msg":"config.go:422] Config.NVProxyDocker (--nvproxy-docker): false","level":"debug","time":"2024-05-02T15:14:16.618276271Z"}
+{"msg":"config.go:422] Config.NVProxyDriverVersion (--nvproxy-driver-version): (empty)","level":"debug","time":"2024-05-02T15:14:16.618289085Z"}
+{"msg":"config.go:422] Config.TPUProxy (--tpuproxy): false","level":"debug","time":"2024-05-02T15:14:16.618299995Z"}
+{"msg":"config.go:422] Config.TestOnlyAllowRunAsCurrentUserWithoutChroot (--TESTONLY-unsafe-nonroot): false","level":"debug","time":"2024-05-02T15:14:16.618317288Z"}
+{"msg":"config.go:422] Config.TestOnlyTestNameEnv (--TESTONLY-test-name-env): (empty)","level":"debug","time":"2024-05-02T15:14:16.618328309Z"}
+{"msg":"config.go:422] Config.TestOnlyAFSSyscallPanic (--TESTONLY-afs-syscall-panic): false","level":"debug","time":"2024-05-02T15:14:16.618339119Z"}
+{"msg":"config.go:424] Config.explicitlySet: \u003cmap[string]struct {} Value\u003e (unexported)","level":"debug","time":"2024-05-02T15:14:16.618350471Z"}
+{"msg":"config.go:422] Config.ReproduceNAT (--reproduce-nat): false","level":"debug","time":"2024-05-02T15:14:16.618367663Z"}
+{"msg":"config.go:422] Config.ReproduceNftables (--reproduce-nftables): false","level":"debug","time":"2024-05-02T15:14:16.618389725Z"}
+{"msg":"config.go:422] Config.TestOnlyAutosaveImagePath (--TESTONLY-autosave-image-path): (empty)","level":"debug","time":"2024-05-02T15:14:16.618413069Z"}
+{"msg":"config.go:422] Config.TestOnlyAutosaveResume (--TESTONLY-autosave-resume): false","level":"debug","time":"2024-05-02T15:14:16.618436793Z"}
+{"msg":"main.go:199] **************** gVisor ****************","level":"info","time":"2024-05-02T15:14:16.618458414Z"}
+{"msg":"state_file.go:78] Load container, rootDir: \"/run/containerd/runsc/k8s.io\", id: {SandboxID: ContainerID:02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af}, opts: {Exact:false SkipCheck:false TryLock:false RootContainer:false}","level":"debug","time":"2024-05-02T15:14:16.61851531Z"}
+{"msg":"container.go:425] Start container, cid: 02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af","level":"debug","time":"2024-05-02T15:14:16.62157383Z"}
+{"msg":"sandbox.go:386] Start root sandbox \"02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af\", PID: 73339","level":"debug","time":"2024-05-02T15:14:16.62162675Z"}
+{"msg":"sandbox.go:625] Connecting to sandbox \"02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af\"","level":"debug","time":"2024-05-02T15:14:16.621650665Z"}
+{"msg":"network.go:55] Setting up network","level":"info","time":"2024-05-02T15:14:16.6217171Z"}
+{"msg":"namespace.go:108] Applying namespace network at path \"/proc/73339/ns/net\"","level":"info","time":"2024-05-02T15:14:16.621843177Z"}
+{"msg":"network.go:296] Setting up network channels","level":"debug","time":"2024-05-02T15:14:16.622914802Z"}
+{"msg":"network.go:299] Creating Channel 0","level":"debug","time":"2024-05-02T15:14:16.622952993Z"}
+{"msg":"network.go:330] Setting up network, config: {FilePayload:{Files:[0xc00026ae70]} LoopbackLinks:[{Name:lo Addresses:[127.0.0.1/8 ::1/128] Routes:[{Destination:{IP:127.0.0.0 Mask:ff000000} Gateway:\u003cnil\u003e} {Destination:{IP:::1 Mask:ffffffffffffffffffffffffffffffff} Gateway:\u003cnil\u003e}] GVisorGRO:false}] FDBasedLinks:[{Name:eth0 InterfaceIndex:0 MTU:1420 Addresses:[100.64.0.90/24 fe80::8814:25ff:fede:4601/64] Routes:[{Destination:{IP:100.64.0.0 Mask:ffffff00} Gateway:\u003cnil\u003e} {Destination:{IP:fe80:: Mask:ffffffffffffffff0000000000000000} Gateway:\u003cnil\u003e}] GSOMaxSize:65536 GVisorGSOEnabled:false GVisorGRO:false TXChecksumOffload:false RXChecksumOffload:true LinkAddress:8a:14:25:de:46:01 QDisc:fifo Neighbors:[] NumChannels:1}] XDPLinks:[] Defaultv4Gateway:{Route:{Destination:{IP:0.0.0.0 Mask:00000000000000000000ffff00000000} Gateway:100.64.0.1} Name:eth0} Defaultv6Gateway:{Route:{Destination:{IP:\u003cnil\u003e Mask:\u003cnil\u003e} Gateway:\u003cnil\u003e} Name:} PCAP:false LogPackets:false NATBlob:false}","level":"debug","time":"2024-05-02T15:14:16.623002747Z"}
+{"msg":"urpc.go:568] urpc: successfully marshalled 1136 bytes.","level":"debug","time":"2024-05-02T15:14:16.623396748Z"}
+{"msg":"urpc.go:611] urpc: unmarshal success.","level":"debug","time":"2024-05-02T15:14:16.625622592Z"}
+{"msg":"namespace.go:129] Restoring namespace network","level":"info","time":"2024-05-02T15:14:16.62566431Z"}
+{"msg":"urpc.go:568] urpc: successfully marshalled 112 bytes.","level":"debug","time":"2024-05-02T15:14:16.625726938Z"}
+{"msg":"urpc.go:611] urpc: unmarshal success.","level":"debug","time":"2024-05-02T15:14:16.661545405Z"}
+{"msg":"container.go:1071] Save container, cid: 02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af","level":"debug","time":"2024-05-02T15:14:16.661646415Z"}
+{"msg":"state_file.go:78] Load container, rootDir: \"/run/containerd/runsc/k8s.io\", id: {SandboxID:02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af ContainerID:02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af}, opts: {Exact:true SkipCheck:true TryLock:false RootContainer:false}","level":"debug","time":"2024-05-02T15:14:16.662206357Z"}
+{"msg":"main.go:226] Exiting with status: 0","level":"info","time":"2024-05-02T15:14:16.662966937Z"}

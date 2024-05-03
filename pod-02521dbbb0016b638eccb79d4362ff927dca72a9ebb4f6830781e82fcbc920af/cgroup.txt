@@ -1,0 +1,18 @@
+================================= SYSTEMD CGROUP 02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af\n
+================================= K8s POD CRI CONTAINER 02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af
+memory.max:
+max
+memory.current:
+2117292032
+================================= k8s CONTAINER CRI CONTAINER 1d5c25b3695fc85879172bfac423f4417e0fdaeb29e4a27cb99c6db2712eed99
+memory.max:
+max
+0
+================================= KUBEPODS CGROUP 02521dbbb0016b638eccb79d4362ff927dca72a9ebb4f6830781e82fcbc920af
+memory.max:
+1073741824
+memory.current:
+0
+================================= STATS CONTAINER 1d5c25b3695fc85879172bfac423f4417e0fdaeb29e4a27cb99c6db2712eed99
+memory usage in bytes:
+2208296960
